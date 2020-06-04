@@ -5,7 +5,7 @@ MAINTAINER Toni Hermoso Pulido <toni.hermoso@crg.eu>
 MAINTAINER Luca Cozzuto <lucacozzuto@gmail.com> 
 
 ARG JAVA_VERSION=1.11.0
-ARG MAVEN_VERSION=3.6.1
+ARG MAVEN_VERSION=3.6.3
 
 ENV JAVA_HOME /usr/lib/jvm/java-openjdk
 
