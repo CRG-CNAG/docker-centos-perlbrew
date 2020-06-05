@@ -4,7 +4,7 @@ FROM biocorecrg/centos-perlbrew-pyenv:centos8
 MAINTAINER Toni Hermoso Pulido <toni.hermoso@crg.eu>
 MAINTAINER Luca Cozzuto <lucacozzuto@gmail.com> 
 
-ARG JAVA_VERSION=1.11.0
+ARG JAVA_VERSION=11
 ARG MAVEN_VERSION=3.6.3
 
 ENV JAVA_HOME /usr/lib/jvm/java-openjdk
