@@ -9,6 +9,7 @@ ARG PERL_VERSION=5.28.2
 ARG PERL_BUILD=--thread
 
 # Base Perl and builddep
+RUN yum update -y
 RUN yum install -y perl yum-utils
 RUN yum-builddep -y perl
 RUN yum install -y bzip2 zip procps
