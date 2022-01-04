@@ -1,4 +1,4 @@
-FROM centos:centos8
+FROM rockylinux:8
 
 # File Author / Maintainer
 MAINTAINER Toni Hermoso Pulido <toni.hermoso@crg.eu>

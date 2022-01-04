@@ -1,4 +1,4 @@
-FROM biocorecrg/centos-perlbrew-pyenv23:centos8
+FROM biocorecrg/centos-perlbrew-pyenv23:rockylinux8
 
 # File Author / Maintainer
 MAINTAINER Toni Hermoso Pulido <toni.hermoso@crg.eu>
